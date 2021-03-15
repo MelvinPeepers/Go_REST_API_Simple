@@ -1,5 +1,16 @@
 // posts.go
 
+package main
+
+import (
+	"context"
+	"net/http"
+	"io"
+
+	"github.com/go-chi/chi"
+)
+
+type postsResource struct{}
 ...
 
 func (
